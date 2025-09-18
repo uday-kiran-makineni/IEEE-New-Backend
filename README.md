@@ -155,7 +155,7 @@ spring.application.name=ieee-vardhaman-backend
 CORS is enabled for all endpoints with `@CrossOrigin(origins = "*")`. For production, configure specific origins:
 
 ```java
-@CrossOrigin(origins = "http://localhost:3000") // React frontend
+@CrossOrigin(origins = "http://localhost:5173") // React frontend
 ```
 
 ## Features
